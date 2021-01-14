@@ -121,7 +121,7 @@ Resources:
       Tags:
         - Key: Name
           Value: !Ref AWS::StackName
-
+      
 Outputs:
   InstanceEndpoint:
     Description: The DNS name for the created instance
